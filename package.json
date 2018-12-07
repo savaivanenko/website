@@ -1,0 +1,35 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/test/test.git"
+  },
+  "author": "ivan@guitarjazzz.com",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "babel-preset-env": "^2.0.0-alpha.20",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-wait": "0.0.2",
+    "imagemin-pngquant": "^5.1.0"
+  }
+}
